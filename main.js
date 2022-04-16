@@ -21,7 +21,7 @@ try {
 }
 const { Low, JSONFile } = low
 const mongoDB = require('./lib/mongoDB')
-global.db = new Low(new mongoDB('mongodb+srv://Pilar:Pilar@cluster0.xxiay.mongodb.net/Pilar?retryWrites=true&w=majority'))
+
 
 
 
